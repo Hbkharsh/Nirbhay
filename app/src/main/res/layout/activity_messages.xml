@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Messages">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="581dp"
+        android:layout_height="565dp"
+        android:layout_marginBottom="452dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/minius" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="93dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@drawable/ncb" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Messages">
+
+        <TextView
+            android:id="@+id/firstMessage"
+            android:layout_width="333dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#6EAE9F"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="15dp"
+            android:paddingTop="13dp"
+            android:text="Hello NCB this Side Be Nirbhay"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.278" />
+
+        <TextView
+            android:id="@+id/messageBox"
+            android:layout_width="326dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/border"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.208"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintVertical_bias="0.865" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Message"
+            app:layout_constraintBottom_toBottomOf="@+id/messageBox"
+            app:layout_constraintEnd_toEndOf="@+id/messageBox"
+            app:layout_constraintStart_toStartOf="@+id/messageBox"
+            app:layout_constraintTop_toTopOf="@+id/messageBox" />
+
+        <ImageView
+            android:id="@+id/sentBtn"
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.901"
+            app:srcCompat="@drawable/ic_baseline_send_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
